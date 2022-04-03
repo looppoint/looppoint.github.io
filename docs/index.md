@@ -47,8 +47,13 @@ This demo site showcases the available page layout options.
 * Blog
 * Post
 
-## Supported By JetBrains
+## The Team
 
-JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
+LoopPoint and ELFies project was done in collaboration with the National University of Singapore and Intel Corporation.
 
-[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
+[![Alen Sabu](img/alen.jpeg)](https://alenks.github.io)
+[![Harish Patil](img/harish.jpeg)](https://pages.cs.wisc.edu/~patil)
+[![Wim Heirman](img/wim.jpeg)](https://heirman.net)
+[![Trevor E. Carlson](img/trevor.jpeg)](https://www.comp.nus.edu.sg/~tcarlson/)
+
+
