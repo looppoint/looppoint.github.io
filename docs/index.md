@@ -47,13 +47,45 @@ This demo site showcases the available page layout options.
 * Blog
 * Post
 
-## The Team
+<hr>
+<h3>The Team</h3>
 
 LoopPoint and ELFies project was done in collaboration with the National University of Singapore and Intel Corporation.
 
-[![Alen Sabu](img/alen.jpeg)](https://alenks.github.io)
-[![Harish Patil](img/harish.jpeg)](https://pages.cs.wisc.edu/~patil)
-[![Wim Heirman](img/wim.jpeg)](https://heirman.net)
-[![Trevor E. Carlson](img/trevor.jpeg)](https://www.comp.nus.edu.sg/~tcarlson/)
+
+<div class="row">
+  <div class="column">
+    <center>
+      <img src="img/alen.jpeg" width="200">
+      <br>
+      <a href="https://alenks.github.io"> Alen Sabu </a>
+    </center>
+  </div>
+  <div class="column">
+    <center>
+      <img src="img/harish.jpeg" width="200">
+      <br>
+      <a href="https://pages.cs.wisc.edu/~patil"> Harish Patil </a>
+    </center>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <center>
+      <img src="img/wim.jpeg" width="200">
+      <br>
+      <a href="https://heirman.net"> Wim Heirman </a>
+    </center>
+  </div>
+  <div class="column">
+    <center>
+      <img src="img/trevor.jpeg" width="200">
+      <br>
+      <a href="https://www.comp.nus.edu.sg/~tcarlson/"> Trevor E. Carlson </a>
+    </center>
+  </div>
+</div>
+
 
 
