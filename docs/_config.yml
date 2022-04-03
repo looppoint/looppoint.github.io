@@ -28,7 +28,7 @@ twitter_username: alen_k_s
 github_username:  alenks
 
 # Build settings
-theme: minima
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
 
