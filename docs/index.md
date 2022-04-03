@@ -8,11 +8,6 @@ show_sidebar: true
 
 # Bulma Clean Theme demo website
 
-This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
-
-[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
-![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
-![GitHub Repo stars](https://img.shields.io/github/stars/chrisrhymes/bulma-clean-theme?style=social)
 
 ## Ruby Gem
 
@@ -58,31 +53,29 @@ LoopPoint and ELFies project was done in collaboration with the National Univers
     <center>
       <img src="img/alen.jpeg" width="200">
       <br>
-      <a href="https://alenks.github.io"> Alen Sabu </a>
+      <a href="https://alenks.github.io" target="_blank"> Alen Sabu </a>
     </center>
   </div>
   <div class="column">
     <center>
       <img src="img/harish.jpeg" width="200">
       <br>
-      <a href="https://pages.cs.wisc.edu/~patil"> Harish Patil </a>
+      <a href="https://pages.cs.wisc.edu/~patil" target="_blank"> Harish Patil </a>
     </center>
   </div>
-</div>
 
-<div class="row">
   <div class="column">
     <center>
       <img src="img/wim.jpeg" width="200">
       <br>
-      <a href="https://heirman.net"> Wim Heirman </a>
+      <a href="https://heirman.net" target="_blank"> Wim Heirman </a>
     </center>
   </div>
   <div class="column">
     <center>
       <img src="img/trevor.jpeg" width="200">
       <br>
-      <a href="https://www.comp.nus.edu.sg/~tcarlson/"> Trevor E. Carlson </a>
+      <a href="https://www.comp.nus.edu.sg/~tcarlson/" target="_blank"> Trevor E. Carlson </a>
     </center>
   </div>
 </div>
