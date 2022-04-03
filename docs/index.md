@@ -1,6 +1,6 @@
 ---
-title: Bulma Clean Theme
-subtitle: This is the demo site for Bulma Clean Theme
+title: LoopPoint and ELFies
+subtitle: Information about how to use the tools
 layout: page
 callouts: home_callouts
 show_sidebar: true

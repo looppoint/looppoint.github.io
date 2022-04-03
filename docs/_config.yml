@@ -28,7 +28,7 @@ twitter_username:
 github_username:
 
 # Build settings
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
