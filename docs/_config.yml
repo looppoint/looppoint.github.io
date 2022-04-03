@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Information about the tutorial sessions of LoopPoint and ELFies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://looppoint.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: alen_k_s
-github_username:  alenks
+twitter_username:
+github_username:
 
 # Build settings
 theme: jekyll-theme-architect
