@@ -11,38 +11,17 @@ Generic multi-threaded sampled simulation has been a long-standing, challenging 
 
 To solve these challenges, we propose a novel sampling technique for multi-threaded applications, called LoopPoint, that is both agnostic to the type of synchronization primitives used and scales by the similarity exhibited by the application. The proposed methodology combines several vital features, including (1) repeatable, up-front application analysis, (2) a novel clustering approach to take into account run-time parallelism, (3) the use of loop-based simulation markers to divide the work into measurable chunks, even in the presence of spin-loops, and (4) the non-deterministic simulation of ELFie checkpoints generated using the loop-based markers. LoopPoint identifies representative simulation regions that can be simulated in parallel to achieve speedups of up to 801× for the train input set of the multi-threaded SPEC CPU2017 benchmarks with an average simulation error of just 2.3%.
 
-## Ruby Gem
-
-The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
-
-## GitHub Pages
-
-The theme can be used with GitHub Pages by setting the `remote_theme` in your Jekyll sites `_config.yml`
-
-```yml
-remote_theme: chrisrhymes/bulma-clean-theme
-```
-
-## Documentation
-
-For full instructions, please see the [Documentation](/bulma-clean-theme/docs/)
-
-## Page Layouts
-
-This demo site showcases the available page layout options. 
-
-* Sidebar
-* Menubar
-* Tabs
-* Footer
-* Hero
-* Contents
-* Landing Page With Callouts
-* Sponsors Page
-* Image Gallery
-* Recipe Page
-* Blog
-* Post
+<hr>
+<h3><b>Video</b></h3>
+The short talk on LoopPoint at HPCA 2022.
+<div class="video-container">
+  <iframe src="https://www.youtube.com/watch?v=Tr6O9MkT42g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+The talk on ELFies at CGO 2021.
+<div class="video-container">
+  <iframe src="https://www.youtube.com/watch?v=MYxhvRmVoSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <hr>
 <h3>The Team</h3>
