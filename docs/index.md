@@ -15,12 +15,12 @@ To solve these challenges, we propose a novel sampling technique for multi-threa
 <h3><b>Video</b></h3>
 The short talk on LoopPoint at HPCA 2022.
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/Tr6O9MkT42g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/Tr6O9MkT42g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br>
 The talk on ELFies at CGO 2021.
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/MYxhvRmVoSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/MYxhvRmVoSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <hr>
