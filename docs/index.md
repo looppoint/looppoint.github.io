@@ -2,7 +2,6 @@
 title: LoopPoint and ELFies
 subtitle: Information about how to use the tools
 layout: page
-callouts: home_callouts
 show_sidebar: true
 ---
 
