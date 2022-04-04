@@ -23,6 +23,56 @@ The talk on ELFies at CGO 2021.
 </div>
 
 <hr>
+<h2><b>Publications</b></h2>
+[1] <a href="https://alenks.github.io/pdf/looppoint_hpca2022.pdf">LoopPoint: Checkpoint-driven Sampled Simulation for Multi-threaded Applications</a>
+<br>
+2022 IEEE International Symposium on High-Performance Computer Architecture (HPCA)
+<br>
+Alen Sabu, Harish Patil, Wim Heirman, and Trevor E. Carlson
+<div class="scrollmenu">
+<h5><pre><code>@inproceedings{10.1109/HPCA53966.2022.00051,
+author = {Sabu, Alen and Patil, Harish and Heirman, Wim and Carlson, Trevor E.},
+title = {LoopPoint: Checkpoint-driven Sampled Simulation for Multi-threaded Applications},
+year = {2022},
+isbn = {},
+publisher = {IEEE Press},
+address = {New York City, NY, USA},
+url = {https://doi.org/10.1109/HPCA53966.2022.00051},
+doi = {10.1109/HPCA53966.2022.00051},
+booktitle = {Proceedings of the 2022 IEEE International Symposium on High-Performance Computer Architecture},
+articleno = {},
+numpages = {15},
+pages = {604-618},
+keywords = {checkpointing, multi-threaded, record-and-replay, sampling, simulation},
+location = {Virtual Event, South Korea},
+series = {HPCA '22}}</code></pre></h5>
+</div>
+
+[2] <a href="https://alenks.github.io/pdf/elfie_cgo21_submitted.pdf">ELFies: Executable Region Checkpoints for Performance Analysis and Simulation</a>
+<br>
+2021 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)
+<br>
+Harish Patil, Alexander Isaev, Wim Heirman, Alen Sabu, Ali Hajiabadi, and Trevor E. Carlson
+<div class="scrollmenu">
+<h5><pre><code>@inproceedings{10.1109/CGO51591.2021.9370340,
+author = {Patil, Harish and Isaev, Alexander and Heirman, Wim and Sabu, Alen and Hajiabadi, Ali and Carlson, Trevor E.},
+title = {ELFies: Executable Region Checkpoints for Performance Analysis and Simulation},
+year = {2021},
+isbn = {9781728186139},
+publisher = {IEEE Press},
+address = {New York City, NY, USA},
+url = {https://doi.org/10.1109/CGO51591.2021.9370340},
+doi = {10.1109/CGO51591.2021.9370340},
+booktitle = {Proceedings of the 2021 IEEE/ACM International Symposium on Code Generation and Optimization},
+articleno = {},
+numpages = {11},
+pages = {126–136},
+keywords = {record and replay, dynamic program analysis, performance monitoring, simulation region selection},
+location = {Virtual Event, South Korea},
+series = {CGO '21}}</code></pre></h5>
+</div>
+
+<hr>
 <h2>The Team</h2>
 <p align="justify">LoopPoint and ELFies was done as a collaboration project between the National University of Singapore (NUS) and Intel Corporation. There are several people involved in the project both from NUS and Intel. The primary contributors of the project are listed below.</p>
 
