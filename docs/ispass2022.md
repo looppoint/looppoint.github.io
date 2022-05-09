@@ -13,13 +13,30 @@ You can find the source code at GitHub:
 <a href="https://github.com/intel/pinball2elf" target="_blank"> ELFies</a>
 
 <h2>Agenda</h2>
-09.00 to 09.50    Harish talks about Pin, PinPlay, SDE, ELFies <br>
-09.50 to 10.15    Tea Break <br>
-10.15 to 11.00    Akanksha talks about performance analysis, simulation, single-threaded sampling techniques <br>
-11.00 to 11.20    Tea Break <br>
-11.20 to 12.15    Alen talks about multi-threaded sampling, LoopPoint
-12.15 to 13.00    Changxi talks about Sniper simulation and perform a demo to use LoopPoint
-
+<div class="row">
+<div class="column">09.00 to 09.50 </div>  
+<div class="column">Harish talks about Pin, PinPlay, SDE, ELFies </div>
+</div>
+<div class="row">
+<div class="column">09.50 to 10.15 </div>
+<div class="column">Tea Break </div>
+</div>
+<div class="row">
+<div class="column">10.15 to 11.00 </div>
+<div class="column">Akanksha talks about performance analysis, simulation, single-threaded sampling techniques </div>
+</div>
+<div class="row">
+<div class="column">11.00 to 11.20 </div>
+<div class="column">Tea Break </div>
+</div>
+<div class="row">
+<div class="column">11.20 to 12.15 </div>
+<div class="column">Alen talks about multi-threaded sampling, LoopPoint </div>
+</div>
+<div class="row">
+<div class="column">12.15 to 13.00 </div>
+<div class="column">Changxi talks about Sniper simulation and perform a demo to use LoopPoint </div>
+</div>
 
 <h2>Speakers</h2>
 <p align="justify">LoopPoint and ELFies was done as a collaboration project between the National University of Singapore (NUS) and Intel Corporation. There are several people involved in the project both from NUS and Intel. The primary contributors of the project are listed below.</p>
