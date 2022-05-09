@@ -33,6 +33,14 @@ You can find the source code at GitHub:
 </div>
 <br>
 <div class="container">
+<img src='/img/akanksha.jpeg' width=200>
+<div class="text">
+<a href="https://github.com/akankshac-073" target="_blank"><b> Akanksha Chaudhari</b></a><br>
+<p align="justify"> Akanksha is a Research Assistant at the School of Computing, National University of Singapore. Her research interests include operating systems, computer architecture, real-time schedulers, and storage technologies. She received her bachelor's degree in electronics and communication engineering from BITS Pilani, India.</p>
+</div>
+</div>
+<br>
+<div class="container">
 <img src='/img/harish.jpeg' width=200>
 <div class="text">
 <a href="https://pages.cs.wisc.edu/~patil" target="_blank"><b> Harish Patil</b> </a> <br>
