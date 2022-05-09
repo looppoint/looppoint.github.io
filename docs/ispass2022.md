@@ -13,7 +13,7 @@ You can find the source code at GitHub:
 <a href="https://github.com/intel/pinball2elf" target="_blank"> ELFies</a>
 
 <h2>Agenda</h2>
-<table>
+<table style="width:100%">
 <tr>
 <td>09.00 to 09.50</td>
 <td>Harish talks about Pin, PinPlay, SDE, ELFies </td>
