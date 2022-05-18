@@ -34,7 +34,7 @@ Alen Sabu, Harish Patil, Wim Heirman, and Trevor E. Carlson
 author = {Sabu, Alen and Patil, Harish and Heirman, Wim and Carlson, Trevor E.},
 title = {LoopPoint: Checkpoint-driven Sampled Simulation for Multi-threaded Applications},
 year = {2022},
-isbn = {},
+isbn = {978-1-6654-2028-0},
 publisher = {IEEE Press},
 address = {New York City, NY, USA},
 url = {https://doi.org/10.1109/HPCA53966.2022.00051},
@@ -44,7 +44,7 @@ articleno = {},
 numpages = {15},
 pages = {604-618},
 keywords = {checkpointing, multi-threaded, record-and-replay, sampling, simulation},
-location = {Virtual Event, South Korea},
+location = {Seoul, Korea, Republic of},
 series = {HPCA '22}}</code></pre></h5>
 </div>
 
