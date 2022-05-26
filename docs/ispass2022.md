@@ -12,6 +12,9 @@ You can find the source code at GitHub:
 <a href="https://github.com/nus-comparch/looppoint" target="_blank"> LoopPoint</a> and
 <a href="https://github.com/intel/pinball2elf" target="_blank"> ELFies</a>
 
+<h2>Slides</h2>
+The tutorial slides are posted <a href="pdf/tutorial_ispass22.pdf" target="_blank">here</a>.
+
 <h2>Agenda</h2>
 <table>
 <tr>
