@@ -105,7 +105,7 @@ series = {CGO '21}}</code></pre></h5>
 <img src='img/harish.jpeg' width=200>
 <div class="text">
 <a href="https://pages.cs.wisc.edu/~patil" target="_blank"><b> Harish Patil</b> </a> <br>
-<p align="justify">Harish Patil is a  Principal Engineer in a  Technology Path-finding and Innovation group at Intel Corporation. His areas of interest include static/dynamic program analysis (using “Pin/SDE” and “LLVM”), simulation point selection(“PinPoints”), record/replay (“PinPlay”), and debugging (“DrDebug”). Recipient of “ACM Programming Languages Software Award:2020” for co-developing the Pin program instrumentation framework. Co-author of two papers with  “Test-of-Time” awards based on Pin (PLDI 2005-2015) and  PinPlay (CGO 2010-2020). He has a Ph.D. from the University of Wisconsin, Madison, a B.Tech. and an M.Tech. from Indian Institute of Technology, Bombay, and an MBA from Babson College.</p>
+<p align="justify">Harish Patil is a Principal Engineer in the Technology Path-finding and Innovation group at Intel Corporation. His areas of interest include static/dynamic program analysis (using “Pin/SDE” and “LLVM”), simulation point selection(“PinPoints”), record/replay (“PinPlay”), and debugging (“DrDebug”). Recipient of “ACM Programming Languages Software Award:2020” for co-developing the Pin program instrumentation framework. Co-author of two papers with  “Test-of-Time” awards based on Pin (PLDI 2005-2015) and  PinPlay (CGO 2010-2020). He has a Ph.D. from the University of Wisconsin, Madison, a B.Tech. and an M.Tech. from Indian Institute of Technology, Bombay, and an MBA from Babson College.</p>
 </div>
 </div>
 <br>
@@ -113,7 +113,7 @@ series = {CGO '21}}</code></pre></h5>
 <img src='img/wim.jpeg' width=200>
 <div class="text">
 <a href="https://heirman.net" target="_blank"><b> Wim Heirman</b> </a><br>
-<p align="justify">Wim Heirman is a research scientist at Intel Corporation. His research interests include fast and accurate simulation, and computer architecture design and exploration. He co-authored the Sniper Multi-Core Simulator, has written 100+ papers in scientific conferences and journals, and has 10 granted US patents. He received a M.Sc (2003) and Ph.D (2008) in computer engineering from Ghent University, Belgium.</p>
+<p align="justify">Wim Heirman is a Principal Engineer at Intel Corporation. His research interests include fast and accurate simulation, and computer architecture design and exploration. He co-authored the Sniper Multi-Core Simulator, has written 100+ papers in scientific conferences and journals, and has 10 granted US patents. He received a M.Sc (2003) and Ph.D (2008) in computer engineering from Ghent University, Belgium.</p>
 </div>
 </div>
 <br>
