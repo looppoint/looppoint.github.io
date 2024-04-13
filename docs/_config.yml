@@ -26,6 +26,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://looppoint.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
+paginate: 5
+paginate_path: "/blog/page:num"
+hide_share_buttons: true
+google_analytics: G-W1CPDFKM6Q
 
 # Build settings
 remote_theme: chrisrhymes/bulma-clean-theme
@@ -74,10 +78,11 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: ""
+      author: "Alen"
       layout: post
       image: https://via.placeholder.com/1200x800
-      show_sidbar: true
+      show_sidbar: false
+      
 
 markdown: kramdown
 highlighter: rouge
