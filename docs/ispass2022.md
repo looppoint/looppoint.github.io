@@ -8,19 +8,26 @@ hero_height: is-fullwidth
 ---
 
 <style>
-.flex-parent{display:flex; column-gap: 40px;}
+.flex-container{display:flex; flex-direction: row; column-gap: 5px;}
+.flex-item-left{flex:18%;}
+.flex-item-right{flex:78%;}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
 </style>
 
 
-<div class="flex-parent">
-    <div class="flex-child" style="width:80%;">
-        <p align="justify">A tutorial on LoopPoint and ELFies has been accepted to the <a href="https://ispass.org/ispass2022/" target="_blank">IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS) 2022</a>, which will be hosted at the National University of Singapore on 22-24 May 2022. The authors are looking forward to sharing this work and having an in-person discussion during the tutorial session.</p>
-    </div>
-    <div class="flex-child" style="width:20%;padding-left:50px;">
+<div class="flex-container">
+    <div class="flex-item-left" style="margin:auto; width:70%">
         <img src="/img/ispasslogo.gif" />
     </div>
+    <div class="flex-item-right" style="margin:auto">
+        <p align="justify">A tutorial on LoopPoint and ELFies has been accepted to the <a href="https://ispass.org/ispass2022/" target="_blank">IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS) 2022</a>, which will be hosted at the National University of Singapore on 22-24 May 2022. The authors are looking forward to sharing this work and having an in-person discussion during the tutorial session.</p>
+    </div>
 </div>
-<br>
+
 <p align="justify">The tutorial is based on our recently published research to demonstrate how one can effectively reduce the simulation time needed for large multi-threaded applications to a practically short period of time. This is a key issue for future large-system exploration, both in the industry as well as academia. In this tutorial, we will demonstrate a collection of tools and techniques that are intended to help computer architecture researchers simulate complex applications on future hardware (with a focus on our most recent publication, LoopPoint, from HPCA 2022). The tutorial targets researchers interested in simulation methodologies, workload sampling, application analysis, and computer architecture in general. The tutorial covers several interesting and novel methodologies developed in industry as well as academia.</p>
 
 <p>You can find the source code at GitHub:
