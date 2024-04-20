@@ -5,8 +5,29 @@ layout: page
 show_sidebar: true
 ---
 
-<h2>Abstract</h2>
-<p align="justify">Generic multi-threaded sampled simulation has been a long-standing, challenging problem with the potential to help change how researchers study modern, complex computing systems. Yet, a practical solution for reducing complex multi-threaded applications into a representative sample has been elusive. Existing techniques either do not provide significant speedups to be useful or are limited to be applicable only to certain synchronization types. In addition, workload-specific solutions can be rigid with respect to region selection, which can limit the overall simulation speedup when the selected regions are large. A solution is needed that both supports generic multi-threaded applications, no matter the synchronization primitives used, as well as allows for ease of deployment and fast evaluation.</p>
+<style>
+.flex-container{display:flex; flex-direction: row; column-gap: 3px;}
+.flex-item-left{flex:24%;}
+.flex-item-right{flex:74.2%;}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+</style>
+
+<h2>Overview</h2>
+
+<div class="flex-container">
+    <div class="flex-item-left" style="margin:auto; width:50%">
+        <img src='img/looppointlogo.png'>
+    </div>
+    <div class="flex-item-right" style="margin:auto; text-align-last: justify;">
+    <p align="justify">Generic multi-threaded sampled simulation has been a long-standing, challenging problem with the potential to help change how researchers study modern, complex computing systems. Yet, a practical solution for reducing complex multi-threaded applications into a representative sample has been elusive. </p>
+    </div>
+</div>
+<p align="justify">Existing techniques either do not provide significant speedups to be useful or are limited to be applicable only to certain synchronization types. In addition, workload-specific solutions can be rigid with respect to region selection, which can limit the overall simulation speedup when the selected regions are large. A solution is needed that both supports generic multi-threaded applications, no matter the synchronization primitives used, as well as allows for ease of deployment and fast evaluation.</p>
 
 <p align="justify">To solve these challenges, we propose a novel sampling technique for multi-threaded applications, called LoopPoint, that is both agnostic to the type of synchronization primitives used and scales by the similarity exhibited by the application. The proposed methodology combines several vital features, including (1) repeatable, up-front application analysis, (2) a novel clustering approach to take into account run-time parallelism, (3) the use of loop-based simulation markers to divide the work into measurable chunks, even in the presence of spin-loops, and (4) the non-deterministic simulation of ELFie checkpoints generated using the loop-based markers. LoopPoint identifies representative simulation regions that can be simulated in parallel to achieve speedups of up to 801× for the train input set of the multi-threaded SPEC CPU2017 benchmarks with an average simulation error of just 2.3%.</p>
 
