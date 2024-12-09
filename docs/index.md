@@ -31,6 +31,42 @@ show_sidebar: true
 
 <p align="justify">To solve these challenges, we propose a novel sampling technique for multi-threaded applications, called LoopPoint, that is both agnostic to the type of synchronization primitives used and scales by the similarity exhibited by the application. The proposed methodology combines several vital features, including (1) repeatable, up-front application analysis, (2) a novel clustering approach to take into account run-time parallelism, (3) the use of loop-based simulation markers to divide the work into measurable chunks, even in the presence of spin-loops, and (4) the non-deterministic simulation of ELFie checkpoints generated using the loop-based markers. LoopPoint identifies representative simulation regions that can be simulated in parallel to achieve speedups of up to 801× for the train input set of the multi-threaded SPEC CPU2017 benchmarks with an average simulation error of just 2.3%.</p>
 
+<h2>Release of SPEC ELFies</h2>
+We are releasing a set of ELFies for simulating on gem5/Sniper. The ELFies are representative checkpoints of SPEC CPU2017 benchmarks (reference inputs) that use 8 threads generated using LoopPoint methodology. The ELFies of each benchmark can be downloaded from the individual links below. We are anticipating a release of all the remaining benchmarks of SPEC CPU2017 in the upcoming months.<br>
+
+- <a href="http://snipersim.com/documents/elfies/cpu2017-mt-elfies/603.bwaves_s.1/603.bwaves_s.1.tar.bz2" target="_blank"> 603.bwaves_s.1</a>
+  - <a href="/shared/603.bwaves_s.1.config.tar.gz" target="_blank">Config files</a>
+- <a href="http://snipersim.com/documents/elfies/cpu2017-mt-elfies/603.bwaves_s.2/603.bwaves_s.2.tar.bz2" target="_blank"> 603.bwaves_s.2</a>
+  - <a href="/shared/603.bwaves_s.2.config.tar.gz" target="_blank">Config files</a>
+- <a href="http://snipersim.com/documents/elfies/cpu2017-mt-elfies/621.wrf_s.1/621.wrf_s.1.tar.bz2" target="_blank"> 621.wrf_s.1</a>
+  - <a href="/shared/621.wrf_s.1.config.tar.gz" target="_blank">Config files</a>
+
+These ELFies can be simulated on both <a href="https://github.com/gem5/gem5" target="_blank">gem5</a> and <a href="https://github.com/snipersim/snipersim" target="_blank">Sniper</a>. Check this <a href="https://github.com/gem5-hpca-2023/gem5-tutorial-codespace/blob/master/elfie-refs/elfie.py" target="_blank">example configuration script</a> for simulating ELFies on gem5. On Sniper, the following command can be used to simulate ELFies:
+
+```shell
+run-sniper -v -n 8 -c gainestown -g scheduler/type=static -s simuserroi --roi-script --trace-args="-pinplay:control start:address:<start-pc>:count1:global,stop:address:<stop-pc>:count<stop-count>:global" -sprogresstrace -- /path/to/app.sim.elfie
+```
+
+Please refer to the <a href="https://www.spec.org/fairuse.html" target="_blank">SPEC Fair Use Rules</a> before using these checkpoints. If used as the basis for prediction of SPEC run time or a SPEC metric, any results published must be very clearly tagged as “Estimated” or “Estimated by simulation of ELFies for representative simulation regions (looppoints)”. By downloading these ELFies, you confirm that you agree to the license policy outlined above.
+
+<h3>Tools Used</h3>
+- Compiler for building SPEC CPU2017 benchmarks: Intel Compiler Toolchain v2021.5.0
+- <a href="https://www.intel.com/content/www/us/en/developer/articles/tool/software-development-emulator.html" target="_blank">SDE</a> version: 9.14
+- <a href="https://github.com/nus-comparch/looppoint" target="_blank">LoopPoint</a>
+- <a href="https://github.com/intel/pinball2elf" target="_blank">Pinball2Elf</a>
+
+<h3>Benchmark Settings</h3>
+- Benchmark suite: Multi-threaded subset of SPEC CPU2017 benchmarks 
+- Input class: Reference inputs 
+- Number of threads: 8 OpenMP threads
+- OpenMP wait-policy: `active` (spin-loops enabled) 
+- OpenMP schedule: `static`
+- Compiler settings: Instructions of Nehalem architecture (`SSE4.2`); optmizations (`O3`)
+- Sampling methodology: LoopPoint
+- Sample settings: Detailed Regions of ~800M instructions (ignoring spin-loops), no warmup, maxK=20
+
+
+
 <hr>
 <h2>Video</h2>
 The short talk on LoopPoint at HPCA 2022.
